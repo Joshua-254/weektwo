@@ -3,6 +3,10 @@ h1{
 	color: blue;
 	background: grey;
 }
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
 p{
 	font-size: 16;
 }
