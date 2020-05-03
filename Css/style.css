@@ -1,4 +1,10 @@
-.h1{
+h1{
 	text-align: center;
+	color: blue;
+	background: grey;
+}
+p{
+	font-size: 16;
+
 
 }
