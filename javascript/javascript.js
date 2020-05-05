@@ -26,5 +26,3 @@ var months = ["January","February","March","April","May","June","July","August",
 
 function calculate = (((C/4) - 2*C-1) + ((5*Y/4) ) + ((26*(M+1)/10)) + D )%7
 console.log
-
-alert("Your Akan name is "."" );
