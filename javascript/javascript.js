@@ -23,3 +23,9 @@ var year = document.getElementById("year").value;
 var mm = document.getElementById("month").value;
 var male = document.getElementById("male").checked;
 var female = document.getElementById("female").checked;
+//if else section
+if (document.getElementById("male").checked) {
+var gender = 'male';
+
+} else {
+var gender = 'female';
