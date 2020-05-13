@@ -22,7 +22,19 @@ var months = ["January","February","March","April","May","June","July","August",
 //DD - is the Day of the month 
 //mod - is the modulus function ( % )
  
-// Day of the week calculation:
+ ////INPUT REQUIRED
+ //Date of birth
+ //Gender
+ ////OUTPUT REQUIRED
+//Akan Name
 
-function calculate = (((C/4) - 2*C-1) + ((5*Y/4) ) + ((26*(M+1)/10)) + D )%7
-console.log
+var C = Prompt(century);
+var Y = prompt(year);
+var M = prompt(month)
+
+// Day of the week calculation:
+function calculate = ((((C/4) - 2*C-1) + ((5*Y/4) ) + ((26*(M+1)/10)) + D )%7){
+}
+
+
+if 
