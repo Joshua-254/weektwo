@@ -23,9 +23,22 @@ var year = document.getElementById("year").value;
 var mm = document.getElementById("month").value;
 var male = document.getElementById("male").checked;
 var female = document.getElementById("female").checked;
-//if else section
+//if else section gender
 if (document.getElementById("male").checked) {
 var gender = 'male';
 
 } else {
 var gender = 'female';
+}
+//selection for the month section incluiding the various allerts
+if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
+alert("PLEASE ENTER A VALID MONTH NUMBER (FROM 1 TO 12) !!");
+} else if (dd < 1 || dd > 31) {
+alert("PEASE ENTER A VALID DAY NUMBER (FROM 1 TO 31)");
+}
+
+//CALCULATE SECTION
+var yy = year.slice(0, 2);
+var yy = year.slice(2, 4);
+var cc = (yy - 1) / 100 + 1;
+var dayOfTheWeek = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
