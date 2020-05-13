@@ -38,3 +38,7 @@ body{
 .calculate{
   background-color: grey;
 }
+
+label{
+  font-size:20;
+}

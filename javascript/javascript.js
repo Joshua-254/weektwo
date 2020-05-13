@@ -15,8 +15,8 @@
 //Akan Name 
 
 //variable name section
-function calculator() {
-	
+function calc() {
+
 var maleGender = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleGender = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
@@ -102,9 +102,9 @@ alert("PLEASE FILL IN THE FORM BEFORE SUBMITTING IT");
 }
 
 $(document).ready(function () {
-  $('#collect').submit(function (e) {
+  $('#user').submit(function () {
 
-    event.preventDefault();
+    e.preventDefault();
 
   });
 });
