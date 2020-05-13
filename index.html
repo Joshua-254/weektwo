@@ -82,25 +82,19 @@
 	<h2>To continue, please fill out the following form.</h2>
 <div class="calculate">
 		<center>
-			<form id="userinput" action="/action_jacascript.js">
-				<P><center>Fill in your birtday correctly</center></P>
-			  <label for="year">YEAR:</label><br>
-			  <input type="number" id="year" name="year" value=""><br>
-			  <label for="century">CENTURY:</label><br>
-			  <input type="number" id="century" name="century" value=""><br>
-			  <label for="month">MONTH:</label><br>
-			  <input type="number" id="month" name="month" value=""><br>
-			  <label for="day">DAY:</label><br>
-			  <input type="number" id="day" name="day" value=""><br><br>
-			  <p><center>GENDER</center></p>
-			  <input type="radio" id="male" name="gender" value="male">
-			  <label for="male">Male</label>
-			  <input type="radio" id="female" name="gender" value="female">
-			  <label for="female">Female</label><br><br>	
-			     <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
-			  <button onclick="akanName()">SUBMIT</button>
-			</form> 
+
+<form id="main">
+      <label>MONTH</label>
+      <input type="number" id="month" placeholder="Month born in number(s)" max="12" min="1"><br><br>
+      <label> DAY </label>
+        <input type="number" id="day" placeholder="Day born in number(s)" max="31" min="1"><br><br>
+        <label> YEAR </label>
+        <input type="number" id="year" placeholder="Enter your birth-year" max="2090" min="1900"><br><br>
+        <label>GENDER</label>
+
+    </form>
 </div>
+
 	<!--Contacts section-->
 	</br>
 	</br>
