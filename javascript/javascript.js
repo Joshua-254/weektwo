@@ -43,28 +43,55 @@ var yy = year.slice(2, 4);
 var cc = (yy - 1) / 100 + 1;
 var dayOfTheWeek = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
 
-//male section selection
+//male section selection function
+//The number in the brackets [] is the reference to the array
 if (male) {
 if (dayOfTheWeek == 1) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Monday and your Akan name is.. " + boy[1]);
+    alert("Hello, You were born on Monday and your Akan name is.. " + maleGender[1]);
 } else if (dayOfTheWeek == 2) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Tuesday and your Akan name is.. " + boy[2]);
+    alert("Hello, You were born on Tuesday and your Akan name is.. " + maleGender[2]);
 } else if (dayOfTheWeek == 3) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Wednesday and your Akan name is.. " + boy[3]);
+    alert("Hello, You were born on Wednesday and your Akan name is.. " + maleGender[3]);
 } else if (dayOfTheWeek == 4) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Thursday and your Akan name is.. " + boy[4]);
+    alert("Hello, You were born on Thursday and your Akan name is.. " + maleGender[4]);
 } else if (dayOfTheWeek == 5) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Friday and your Akan name is.. " + boy[5]);
+    alert("Hello, You were born on Friday and your Akan name is.. " + maleGender[5]);
 } else if (dayOfTheWeek == 6) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Saturday and your Akan name is.. " + boy[6]);
+    alert("Hello, You were born on Saturday and your Akan name is.. " + maleGender[6]);
 } else if (dayOfTheWeek == 0) {
   document.getElementById("results").innerHTML =
-    alert("Hello, You were born on Sunday and your Akan name is.. " + boy[0]);
+    alert("Hello, You were born on Sunday and your Akan name is.. " + maleGender[0]);
 }
 }
+
+//Female selection section function
+else if (female) {
+if (dayOfTheWeek == 1) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[1]);
+} else if (dayOfTheWeek == 2) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[2]);
+} else if (dayOfTheWeek == 3) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[3]);
+} else if (dayOfTheWeek == 4) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[4]);
+} else if (dayOfTheWeek == 5) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[5]);
+} else if (dayOfTheWeek == 6) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[6]);
+} else if (dayOfTheWeek == 0) {
+  document.getElementById("results").innerHTML =
+    alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[0]);
+}
+
