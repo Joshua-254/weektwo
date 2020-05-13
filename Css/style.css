@@ -34,3 +34,7 @@ label{
 body{
       background-image: url("../images/ghana2.png");
 }
+
+.calculate{
+  background-color: grey;
+}
