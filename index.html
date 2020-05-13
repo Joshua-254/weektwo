@@ -6,7 +6,7 @@
 		<link rel="shortcut icon" href="images/ghana.ico">
 		<link rel="stylesheet" href="Css/style.css">
 
-		   <!-- JavaScript online script -->
+		   <!--javascript section -->
 	    <script
 	      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 	      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -25,117 +25,115 @@
 		<script src="javascript/javascript.js"></script>		
 </head>
 	<body>
-		<div class="container"> 
+	<div class="container"> 
 			</br></br>
 	
-	<!--About or explanation section about the web program-->
-	<hr><hr>
-		<h1>ABOUT</h1>
-			<hr><hr>
+<!--About or explanation section about the web program-->
+<hr><hr>
+	<h1>ABOUT</h1>
+		<hr><hr>
+			<br>
 				<br>
-					<br>
-						<p>
-							This is a web application built using HTML,Javascript and CSS, that takes a user's birthday,gender and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.<br>
-							<br/>
-							Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br>
-							</br>
-							<b style="background-color:white"><i>Most people do know when their birthdays are but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date.</i></b>,<br>
-							</br>
-							<b><p style="color:green;">Well,no need to worry because the solution is here.</p></b>
-						</p>
-					</br>
-				</br>
-
-	<!--Year week calculator-->
-	<hr><hr>
-			<h1>THE CALCULATOR</h1>
-				<hr><hr>
-					</br>
+					<p>
+						This is a web application built using HTML,Javascript and CSS, that takes a user's birthday,gender and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.<br>
+						<br/>
+						Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br>
 						</br>
-						<p> <em><big>The naming is based on the following variables.</big></em></p>
-							<table>
+						<b style="background-color:white"><i>Most people do know when their birthdays are but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date.</i></b>,<br>
+						</br>
+						<b><p style="color:green;">Well,no need to worry because the solution is here.</p></b>
+					</p>
+				</br>
+			</br>
+
+<!--Year week calculator-->
+<hr><hr>
+		<h1>THE CALCULATOR</h1>
+			<hr><hr>
+				</br>
+					</br>
+					<p> <em><big>The naming is based on the following variables.</big></em></p>
+						<table>
+						  <tr>
+						    <th>Day of the week</th>
+						    <th>Male Name Assigned</th>
+						    <th>Female Name Assigned</th>
+						  </tr>
 							  <tr>
-							    <th>Day of the week</th>
-							    <th>Male Name Assigned</th>
-							    <th>Female Name Assigned</th>
+							    <td>Sunday</td>
+							    <td>Kwasi</td>
+							    <td>Akosua</td>
 							  </tr>
 								  <tr>
-								    <td>Sunday</td>
-								    <td>Kwasi</td>
-								    <td>Akosua</td>
+								    <td>Monday</td>
+								    <td>Kwado</td>
+								    <td>Adwoa</td>
 								  </tr>
 									  <tr>
-									    <td>Monday</td>
-									    <td>Kwado</td>
-									    <td>Adwoa</td>
+									    <td>Tuesday</td>
+									    <td>Kwabena</td>
+									    <td>Abenna</td>
 									  </tr>
-										  <tr>
-										    <td>Tuesday</td>
-										    <td>Kwabena</td>
-										    <td>Abenna</td>
-										  </tr>
-											<tr>
-											   <td>Wednesday</td>
-											   <td>Kwako</td>
-											   <td>Okua</td>
-										</tr>
-											<tr>
-											<td>Thursday</td>
-											<td>Yaw</td>
-											<td>Yaa</td>
-										</tr>
-									<tr>
-										<td>Friday</td>
-										<td>Kofi</td>
-										<td>Afua</td>
-										</tr>
+										<tr>
+										   <td>Wednesday</td>
+										   <td>Kwako</td>
+										   <td>Okua</td>
+									</tr>
+										<tr>
+										<td>Thursday</td>
+										<td>Yaw</td>
+										<td>Yaa</td>
+									</tr>
 								<tr>
-									<td>Saturday</td>
-									<td>Kwame</td>
-									<td>Ama</td>
-								</tr>
-							</table>
-						</br>
+									<td>Friday</td>
+									<td>Kofi</td>
+									<td>Afua</td>
+									</tr>
+							<tr>
+								<td>Saturday</td>
+								<td>Kwame</td>
+								<td>Ama</td>
+							</tr>
+						</table>
 					</br>
-	<h2>To continue, please fill out the following form.</h2>
+				</br>
+<h2>To continue, please fill out the following form.</h2>
 <div class="calculate">
-		<center>
+	<center>
 
-<form id="user">
-
-      <label><b>MONTH</b></label><br>
-      <input type="number" id="month" placeholder="Month born in number(s)" max="12" min="1"><br><br>
-      <label><b>DAY</b></label><br>
-        <input type="number" id="day" placeholder="Day born in number(s)" max="31" min="1"><br><br>
-        <label><b>YEAR</b></label><br>
-        <input type="number" id="year" placeholder="Enter your birth-year" max="2090" min="1900"><br><br>
-        <label><b>GENDER</b></label><br>
-        <input type="radio" name="gender" id="male" value="male"> Male
-        <input type="radio" name="gender" id="female" value="female"> Female<br><br>
-        <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="calc()">
-        
-    </form>
+	<form id="user">
+		<label><b>MONTH</b></label><br>
+		<input type="number" id="month" placeholder="Month born in number(s)" max="12" min="1"><br><br>
+		<label><b>DAY</b></label><br>
+	    <input type="number" id="day" placeholder="Day born in number(s)" max="31" min="1"><br><br>
+	    <label><b>YEAR</b></label><br>
+	    <input type="number" id="year" placeholder="Enter your birth-year" max="2090" min="1900"><br><br>
+	    <label><b>GENDER</b></label><br>
+	    <input type="radio" name="gender" id="male" value="male"> Male
+	    <input type="radio" name="gender" id="female" value="female"> Female<br><br>
+	    <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="calc()">
+	    
+	</form>
 </div>
 
-	<!--Contacts section-->
-	</br>
-	</br>
+<!--Contacts section-->
+</br>
+</br>
 <hr><hr>
-	<h1>Contact us</h1>
-		<hr><hr>
-			<br/></br>
-			<center>
-					<p><b><i>Was the web application important?</i></b></p>
-						</br>
-						<b>We value your feedback. <b>
-						<br>
-						In the case of any bugs discovered or more additional features
-						 <br>
-						 discovered,contact at : hosanajoshua@gmail.com
-						<br></p>
+<h1>Contact us</h1>
+	<hr><hr>
+		<br/></br>
+		<center>
+				<p><b><i>Was the web application important?</i></b></p>
+					</br>
+					<b>We value your feedback. <b>
 					<br>
+					In the case of any bugs discovered or more additional features
+					 <br>
+					 discovered,contact at : hosanajoshua@gmail.com
+					<br></p>
 				<br>
-			</center>
-
+			<br>
+		</center>
 </body>
 </html>
