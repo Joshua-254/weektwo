@@ -94,4 +94,7 @@ if (dayOfTheWeek == 1) {
   document.getElementById("results").innerHTML =
     alert("Hello, You were born on Monday and your Akan name is.. " + femaleGender[0]);
 }
-
+} else {
+alert("PLEASE FILL IN THE FORM BEFORE SUBMITTING IT");
+}
+}
