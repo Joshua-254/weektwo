@@ -1,4 +1,4 @@
-}
+
 //calculator
 //Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 //where;
@@ -13,3 +13,6 @@
  //Gender
  ////OUTPUT REQUIRED
 //Akan Name 
+
+var maleGender = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleGender = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
