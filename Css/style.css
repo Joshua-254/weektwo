@@ -33,6 +33,8 @@ label{
 
 body{
       background-image: url("../images/ghana2.png");
+      padding-left: 50;
+      padding-right: 50;
 }
 
 .calculate{
